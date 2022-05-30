@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sobstvennye_statyk">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0sp"
+        android:layout_marginEnd="0sp"
+        android:paddingTop="10dp">
+
+
+        <ImageView
+            android:id="@+id/iv_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="353dp"
+            android:contentDescription="@string/vector_back"
+            android:src="@drawable/ic_vector"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="140dp"
+            android:text="@string/sobstvennye"
+            android:textColor="#309EFF"
+            android:textSize="30sp"
+            android:textStyle="normal|bold"
+            tools:ignore="TextContrastCheck" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_back_button"
+            android:layout_marginTop="30dp"
+            android:background="@xml/style_body_firmware_updater"
+            android:elevation="20dp"
+            android:orientation="vertical"
+            android:paddingTop="12dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0sp">
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/top_soedineniya"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="АДАПТЕР ТУТ БУДЕТ"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText4"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:padding="15dp"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/port_dannyx"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText7"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/port_zvuka"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText8"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="33dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/darker_gray" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/sostoyanie2"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp">
+
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/connection"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText20"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp">
+
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/mac_adres"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText22"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp">
+
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/tip_soedineniya"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText24"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp">
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/discover"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp">
+
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/port_dannyx4"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText25"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp">
+
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/port_zvuka3"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText26"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp">
+
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/ip_adress"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText27"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp">
+
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/maska_seti5"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText28"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp">
+
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/shluz_seti4"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText29"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp">
+
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/ip_dhcp5"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText30"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp">
+
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22sp"
+                    android:text="@string/ip_dns2"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/textInputEditText23"
+                    android:layout_width="235dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="140sp"
+                    android:padding="15dp"
+                    android:background="@xml/okrugl_layout"
+                    android:gravity="top"
+                    android:textColor="#757575"
+                    android:textSize="11sp"
+                    tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginRight="100dp"
+                    android:text="@string/update"
+                    android:textAllCaps="false"
+                    android:textColor="#86DAB9"
+                    app:cornerRadius="8sp"
+                    tools:ignore="TextContrastCheck" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
